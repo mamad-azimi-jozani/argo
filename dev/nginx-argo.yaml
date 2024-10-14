@@ -11,7 +11,7 @@ metadata:
   name: argo-nginx
   namespace: argo-demo
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: argo-nginx
